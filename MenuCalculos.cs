@@ -27,7 +27,7 @@ namespace Calculator
         {
             if(string.IsNullOrEmpty(valor))
             {
-                Console.WriteLine("A resposta foi inválida, retornando para o menu simples!");
+                Console.WriteLine("A resposta foi inválida, retornando para o menu aprimorado!");
                 Thread.Sleep(3000);
                 Menu.MenuAprimorado();
             }
@@ -37,7 +37,7 @@ namespace Calculator
 
             if(verificador == false)
             {
-                Console.WriteLine("A resposta foi inválida, retornando para o menu simples!");
+                Console.WriteLine("A resposta foi inválida, retornando para o menu aprimorado!");
                 Thread.Sleep(3000);
                 Menu.MenuAprimorado();
             }
@@ -48,7 +48,7 @@ namespace Calculator
         {
             if(string.IsNullOrEmpty(valor))
             {
-                Console.WriteLine("A resposta foi inválida, retornando para o menu simples!");
+                Console.WriteLine("A resposta foi inválida, retornando para o menu diferente!");
                 Thread.Sleep(3000);
                 Menu.MenuDiferente();
             }
@@ -58,7 +58,7 @@ namespace Calculator
 
             if(verificador == false)
             {
-                Console.WriteLine("A resposta foi inválida, retornando para o menu simples!");
+                Console.WriteLine("A resposta foi inválida, retornando para o menu diferente!");
                 Thread.Sleep(3000);
                 Menu.MenuDiferente();
             }
